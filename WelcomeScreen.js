@@ -7,7 +7,7 @@ export default function WelcomeScreen({ navigation }) {
     <View style={styles.container}>
       <Text style={styles.heading}>Limat Technology Solution</Text>
 
-      {/* Add the Limat logo image here */}
+      
       <Image source={{uri:'https://limat-tech.com/wp-content/uploads/sites/236/elementor/thumbs/2-EDITED-LOGO-p6q56jyoyyo5w1oc8jk6tv1sk34ctexu3g9gumqpiw.png'}} style={styles.logo} />
 
       <Text style={styles.subHeading}>Welcome to Limat Technology Solutions</Text>
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
-    backgroundColor: '#e6f2ff',  // Light blue background color
+    backgroundColor: '#e6f2ff',  
   },
   heading: {
     fontSize: 24,
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 200,
-    height: 100,  // Adjust the logo size as needed
+    height: 100,  
     marginBottom: 20,
   },
   subHeading: {
